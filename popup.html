@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <style>
+       body {
+           width: 200px;
+           padding: 15px;
+           font-family: Arial, sans-serif;
+           background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+           color: white;
+           margin: 0;
+       }
+       
+       .container {
+           text-align: center;
+       }
+       
+       h3 {
+           margin: 0 0 15px 0;
+           font-size: 16px;
+       }
+       
+       .toggle-btn {
+           background: #4CAF50;
+           color: white;
+           border: none;
+           padding: 10px 20px;
+           border-radius: 20px;
+           cursor: pointer;
+           font-size: 14px;
+           width: 100%;
+           transition: all 0.3s ease;
+       }
+       
+       .toggle-btn:hover {
+           background: #45a049;
+           transform: translateY(-1px);
+       }
+       
+       .status {
+           margin-top: 10px;
+           font-size: 12px;
+           opacity: 0.8;
+       }
+       
+       .inactive {
+           opacity: 0.6;
+       }
+       
+       .inactive .toggle-btn {
+           background: #666;
+           cursor: not-allowed;
+       }
+   </style>
+</head>
+<body>
+   <div class="container">
+       <h3>🎯 Quiz Helper</h3>
+       <button id="toggleBtn" class="toggle-btn">Toggle Answers 🐵</button>
+       <div id="status" class="status"></div>
+   </div>
+   
+   <script src="popup.js"></script>
+</body>
+</html>

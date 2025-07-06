@@ -13,6 +13,12 @@ NPTEL typically displays quiz answers on the page after the due date has passed 
 
 This extension automatically detects when you are on a quiz page and adds a functionality (via an overlay button) to display or hide the answers shown on the page. This is particularly helpful for learners who want to challenge themselves before viewing the official answers.
 
+- YT Video - https://www.youtube.com/watch?v=nsGRaBxfVm8
+
+![](./ss_1.jpg)
+
+![](./ss_2.jpg)
+
 ---
 
 **Perfect for anyone who prefers to audit courses but still wants the option to check quiz answers at their own pace!**

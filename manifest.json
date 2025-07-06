@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "NPTEL Quiz Answer Hider",
+  "version": "1.0",
+  "description": "Hide quiz answers and feedback on NPTEL online courses to practice without seeing solutions",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://onlinecourses.nptel.ac.in/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://onlinecourses.nptel.ac.in/*/unit?*assessment=*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Toggle Quiz Answers"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
